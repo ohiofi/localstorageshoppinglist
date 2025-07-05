@@ -1,0 +1,38 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+button {
+    float:right;
+    /* color:rgb(150,150,150); */
+    /* border:1px solid rgb(200,200,200); */
+    border-radius: 5px;
+    /* background-color: unset; */
+}
+
+.container{
+  padding-bottom:5px;
+  /* background-color:rgb(50,50,50); */
+  /* border:1px solid black; */
+  cursor:move;
+  border-radius: 20px;
+}
+
+.draggable{
+  padding:1rem;
+  background-color:rgb(240,240,255);
+  /* border:1px solid black; */
+  cursor:move;
+  border-radius: 20px;
+}
+.dragging{
+  opacity:0.2;
+}
